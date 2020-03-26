@@ -1,0 +1,32 @@
+.errorContainer {
+	background-color: white;
+	margin-top: 12px;
+	width: 288px;
+	border: 2px solid blue;
+	border-radius: 12px;
+	padding-left: 12px;
+}
+
+.titleContainer {
+	display: flex;
+	align-items: center;
+}
+
+.title {
+	font-size: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.description {
+	font-size: 16px;
+	margin: 0;
+	margin-bottom: 6px;
+	word-wrap: break-word;
+	font-family: monospace;
+}
+
+.dot {
+	width: 15px;
+	height: 15px;
+}

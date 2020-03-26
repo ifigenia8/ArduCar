@@ -1,0 +1,72 @@
+.container {
+	background-image: url('./assets/lego-background.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: calc(100vh - 24px);
+	width: calc(100vw - 24px);
+	padding: 12px;
+}
+
+.blocklyDiv {
+	width: 70vw;
+	height: 90vh;
+	border: 2px solid blue;
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.sideBar {
+	display: flex;
+	flex-direction: column;
+}
+
+.buttonContainer {
+	background-color: white;
+	position: relative;
+	height: 200px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	justify-content: space-evenly;
+	border: 2px solid blue;
+	border-radius: 12px;
+	margin-bottom: 12px;
+}
+
+.buttonRun {
+	width: 200px;
+	height: 80px;
+	background-color: green;
+	border-radius: 6px;
+	border: none;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.buttonConnect {
+	width: 200px;
+	height: 80px;
+	background-color: blue;
+	border-radius: 6px;
+	border: none;
+	color: white;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.ipInput {
+	width: 188px;
+	height: 30px;
+	border-radius: 6px;
+	border: 1px solid gray;
+	padding: 6px;
+	font-size: 16px;
+	text-align: center;
+}
