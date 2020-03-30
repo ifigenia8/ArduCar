@@ -4,6 +4,7 @@ const BrowserWindow = electron.BrowserWindow;
 const path = require('path');
 const isDev = require('electron-is-dev');
 const { ipcMain } = require('electron');
+const nativeImage = electron.nativeImage;
 
 //Libraries for Wemos
 const five = require('johnny-five'); //johnny-five library
@@ -11,13 +12,17 @@ const EtherPortClient = require('etherport-client').EtherPortClient; //etherport
 
 let mainWindow;
 
+var image = nativeImage.createFromPath(__dirname + '/icon.png');
+
 function createWindow() {
+
 	mainWindow = new BrowserWindow({
 		width: 1360,
 		height: 768,
 		webPreferences: {
 			nodeIntegration: true
-		}
+		},
+		icon: image
 	});
 
 	mainWindow.loadURL(isDev ? 'http://localhost:3000' : `file://${path.join(__dirname, '../build/index.html')}`);

@@ -4,6 +4,7 @@ import ErrorView from './components/ErrorView';
 import { myBlocks } from './blockly/myBlocks';
 import './blockly/myBlocksGenerator';
 import './App.css';
+import logoBlockly from './assets/logo_blockly.png';
 
 const { ipcRenderer } = window.require('electron');
 
@@ -74,6 +75,8 @@ class App extends Component {
 						</button>
 					</div>
 					<ErrorView />
+
+					<img src={logoBlockly} alt="logoBlockly" className="blocklyLogo" />
 				</div>
 			</div>
 		);

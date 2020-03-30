@@ -4,6 +4,7 @@
 	"private": true,
 	"main": "public/electron.js",
 	"author": "Ifigenia Garofalaki",
+	"description": "Thesis",
 	"homepage": "./",
 	"dependencies": {
 		"@testing-library/jest-dom": "^4.2.4",
@@ -29,21 +30,18 @@
 		"react-build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-    "dev": "concurrently \"yarn react-start\" \"wait-on http://localhost:3000 && electron .\"",
-    "build": "yarn react-build && yarn electron-builder",
-    "rebuild": "yarn electron-rebuild --force",
-    "postinstall": "yarn rebuild && electron-builder install-app-deps"
+		"dev": "concurrently \"yarn react-start\" \"wait-on http://localhost:3000 && electron .\"",
+		"build": "yarn react-build && yarn electron-builder",
+		"rebuild": "yarn electron-rebuild --force",
+		"postinstall": "yarn rebuild && electron-builder install-app-deps"
 	},
 	"build": {
-    "productName": "ArduCar",
-    "appId": "com.arducar",
-    "files": [
-      "build/**/*",
-      "node_modules/**/*"
-    ],
-    "directories":{
-      "buildResources": "assets"
-    },
+		"productName": "ArduCar",
+		"appId": "com.arducar",
+		"files": [ "build/**/*", "node_modules/**/*" ],
+		"directories": {
+			"buildResources": "assets"
+		},
 		"dmg": {
 			"contents": [
 				{
@@ -59,15 +57,10 @@
 			]
 		},
 		"win": {
-			"target": [
-        "nsis"
-			]
+			"target": [ "nsis" ]
 		},
 		"linux": {
-			"target": [
-				"deb",
-				"AppImage"
-			],
+			"target": [ "deb", "AppImage" ],
 			"category": "Utility"
 		}
 	},
