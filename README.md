@@ -7,10 +7,10 @@ I was asked to use Firmata as communication protocol and Blockly as graphical in
 Components used in this project: 
 - 1 breadboard
 - 1 battery 9V
-- Wemos D1 mini
-- L298N motor driver
-- DC motors
-- Sharp IR Sensor (GP2Y0A41SK0F)
+- 1 Wemos D1 mini
+- 1 L298N motor driver
+- 2 DC motors
+- 1 Sharp IR Sensor (GP2Y0A41SK0F)
 
 ![GitHub Logo](/schematic.jpg)
 
