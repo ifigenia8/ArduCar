@@ -12,6 +12,10 @@ Components used in this project:
 - DC motors
 - Sharp IR Sensor (GP2Y0A41SK0F)
 
+![GitHub Logo](/schematic.jpg)
+
+
+
 Firmata interacting with microcontrollers:
 - https://github.com/firmata/arduino
 
