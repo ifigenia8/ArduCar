@@ -12,8 +12,7 @@ Components used in this project:
 - 2 DC motors
 - 1 Sharp IR Sensor (GP2Y0A41SK0F)
 
-![Image](/schematic.jpg)
-
+<img src="schematic.jpg" width="300" height="400">
 
 
 Firmata interacting with microcontrollers:
