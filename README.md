@@ -19,6 +19,6 @@ Components used in this project:
 Firmata interacting with microcontrollers:
 - https://github.com/firmata/arduino
 
-I choose to use the johhny-five library to connect firmata with my microcontroller: 
+I decided to use the johhny-five library to connect firmata with my microcontroller: 
 - https://github.com/rwaldron/johnny-five
 - http://johnny-five.io/
