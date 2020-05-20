@@ -12,5 +12,5 @@ Components used in this project:
 - DC motors
 - Sharp IR Sensor (GP2Y0A41SK0F)
 
-Firmata with microcontrollers:
+Firmata interacting with microcontrollers:
 - https://github.com/firmata/arduino
