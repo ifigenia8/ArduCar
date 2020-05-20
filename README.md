@@ -12,7 +12,7 @@ Components used in this project:
 - 2 DC motors
 - 1 Sharp IR Sensor (GP2Y0A41SK0F)
 
-![GitHub Logo](/schematic.jpg)
+![Image](/schematic.jpg)
 
 
 
