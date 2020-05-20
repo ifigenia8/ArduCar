@@ -12,4 +12,5 @@ Components used in this project:
 - DC motors
 - Sharp IR Sensor (GP2Y0A41SK0F)
 
-I load and modify the StandardFirmataWifi
+Firmata with microcontrollers:
+- https://github.com/firmata/arduino
