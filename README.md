@@ -14,6 +14,8 @@ Components used in this project:
 
 <img src="schematic.jpg" width="300" height="400">
 
+Here is an example how the project works:    
+https://youtu.be/7ehYtcMoEQs
 
 Firmata interacting with microcontrollers:
 - https://github.com/firmata/arduino
